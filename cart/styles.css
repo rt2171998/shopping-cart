@@ -1,0 +1,93 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.login-container {
+  width: 100vw;
+
+  height: 100vh;
+}
+.main-container {
+  padding: 30px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  width: 100vw;
+}
+.left-nav {
+  margin-left: 15px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.item {
+  border: 1px solid black;
+  width: 25%;
+
+  margin: 0px 10px;
+}
+img {
+  width: 100%;
+}
+#remove-btn {
+  width: 100%;
+  height: 30px;
+  color: white;
+  background-color: black;
+}
+.card-container {
+  width: 65%;
+  border: 1px solid black;
+  padding: 0px 40px;
+
+  margin: 10px;
+}
+.checkout-container {
+  border: 1px solid black;
+
+  height: 500px;
+  position: absolute;
+  width: 290px;
+  right: 40px;
+  top: 148px;
+  color: white;
+  background-color: black;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+}
+.checkout-container div {
+  text-align: center;
+  margin: 20px;
+}
+.price-container {
+  display: flex;
+  justify-content: space-between;
+}
+.total-price {
+  outline: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+#checkout-btn {
+  width: 100%;
+  height: 40px;
+  font-size: medium;
+
+  position: absolute;
+  bottom: 10px;
+}
