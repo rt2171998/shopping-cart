@@ -1,0 +1,45 @@
+body{font-family: 'Inter', sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}.login-signup-container{
+width:100vw;
+
+height:100vh
+}
+a{
+    text-decoration: none;
+    color:white;
+    margin-right: 20px;
+   
+}.nav-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color:white;
+    width:100vw
+}.left-nav{
+    margin-left:15px;
+}.main-container{
+  margin:60px;
+}img{
+    width:57%
+    
+}img{
+    position: absolute;
+    bottom: 5px;
+    right:0px
+}#login-btn{
+    color:white;
+    background-color: black;
+    padding:7px 40px ;
+    margin-right: 10px;
+    cursor: pointer;
+}#sign-up-btn{
+    color:black;
+    background-color: inherit;
+    padding:7px 40px ;
+    cursor: pointer;
+}

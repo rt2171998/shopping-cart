@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my Index</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login-signup-container">
+      <nav class="nav-container">
+        <div class="left-nav"><h3>MeShop.</h3></div>
+
+        <div>
+          <a id="home-link" href="#">Home</a>
+          <a id="login-link" href="./login.html">Login</a>
+          <a id="signup-link" href="./signup.html">Signup</a>
+          <a id="mycart-link" onclick="cantGo()" href="#">My Cart</a>
+          <a id="profile-link" onclick="cantGo()" href="#">Profile</a>
+        </div>
+      </nav>
+      <div class="main-container">
+        <div>
+          <h1>MeShop.</h1>
+          <h2>Your First Shop built on HTML , CSS AND JavaScript</h2>
+
+          <div>
+            <button id="login-btn" onclick="window.location='./login.html';">
+              Login
+            </button>
+            <button id="sign-up-btn" onclick="window.location='./signup.html';">
+              Signup
+            </button>
+          </div>
+        </div>
+        <img src="./landingPagePic.png" alt="" />
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
